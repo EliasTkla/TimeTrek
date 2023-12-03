@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity"
+    android:orientation="vertical"
+    android:background="@color/ash_black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="@color/peach">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/signup_background"
+            android:scaleType="centerCrop"
+            android:contentDescription="Vintage portrait photography collection"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:textAlignment="center"
+        android:text="Sign Up"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/peach"/>
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/username_input"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:hint="Username"
+            android:textColorHint="@color/dark_grey"
+            android:drawableStart="@drawable/profile_icon"
+            android:drawablePadding="15dp"
+            android:background="@drawable/input_shape"/>
+
+        <EditText
+            android:id="@+id/email_input"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:padding="15dp"
+            android:hint="Email"
+            android:textColorHint="@color/dark_grey"
+            android:drawableStart="@drawable/email_icon"
+            android:drawablePadding="15dp"
+            android:background="@drawable/input_shape"/>
+
+        <EditText
+            android:id="@+id/password_input"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:padding="15dp"
+            android:hint="Password"
+            android:textColorHint="@color/dark_grey"
+            android:drawableStart="@drawable/password_icon"
+            android:drawablePadding="15dp"
+            android:background="@drawable/input_shape"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account?"
+                android:textColor="@color/grey"/>
+
+            <Button
+                android:id="@+id/login_link"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="75dp"
+                android:layout_height="48dp"
+                android:padding="0dp"
+                android:text="Login"
+                android:textColor="@color/peach"/>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signup_submit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Sign Up"
+            android:textColor="@color/ash_black"
+            android:background="@drawable/button_shape"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cancel_form"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Cancel"
+            android:textColor="@color/peach"
+            android:background="@color/ash_black"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SearchFragment"
+    android:background="@color/ash_black">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.SearchView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:background="@drawable/input_shape"
+                app:searchIcon="@drawable/search_icon"
+                app:queryHint="Search..."/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="25dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/canada"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:background="@color/ash_black"
+                        android:text="Canada"
+                        android:textSize="25sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/peach"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/greece"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:background="@color/ash_black"
+                        android:text="Greece"
+                        android:textSize="25sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/peach"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/china"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:background="@color/ash_black"
+                        android:text="China"
+                        android:textSize="25sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/peach"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/india"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:background="@color/ash_black"
+                        android:text="India"
+                        android:textSize="25sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/peach"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/uk"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:background="@color/ash_black"
+                        android:text="UK"
+                        android:textSize="25sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/peach"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/egypt"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:background="@color/ash_black"
+                        android:text="Egypt"
+                        android:textSize="25sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/peach"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
